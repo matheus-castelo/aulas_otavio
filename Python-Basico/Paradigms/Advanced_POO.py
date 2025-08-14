@@ -46,7 +46,7 @@ class Animal(SerVivo): # Precisa implementar a Classe Abstrata SerVivo
     # Construtor básico
     def __init__(self, nome: str, idade: int):
         # self é o 'this' de C#
-        self.nome = nome
+        self.nome = nome # public
         self._idade = idade          # _protected (convenção)
         self.__segredo = "não conte" # __private (name mangling)
 
